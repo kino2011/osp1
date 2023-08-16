@@ -5,3 +5,5 @@ def fun(input_data):
     img_data = np.asarray(bytearray(img_bytes.read()))
     img = cv2.imdecode(img_data,cv2.IMREAD_COLOR)
     return [img]gi
+
+// 업데이트 되는 지 확인
